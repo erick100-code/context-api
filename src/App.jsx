@@ -1,10 +1,12 @@
-import './App.css'
+import { Outlet } from "react-router-dom"
+import Navbar from "./components/navbar"
 
 function App() {
 
   return (
     <div>
-      <h1>context API e (useContext)</h1>
+      <Navbar />
+      <Outlet />
     </div>
   )
 
